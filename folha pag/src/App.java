@@ -23,6 +23,7 @@ public class App {
         String data = sc.nextLine();
         System.out.println("Digite O cargo do trabalhador");
         String cargo = sc.next();
+        sc.nextLine();
         System.out.println("O trabalhador é CLT?");
         String clt = sc.next();
         System.out.println("Digite o salario Bruto");
